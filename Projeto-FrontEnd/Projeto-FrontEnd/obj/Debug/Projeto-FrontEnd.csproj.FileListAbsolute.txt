@@ -1,0 +1,11 @@
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\bin\Debug\Projeto-FrontEnd.exe.config
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\bin\Debug\Projeto-FrontEnd.exe
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\bin\Debug\Projeto-FrontEnd.pdb
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\obj\Debug\Projeto-FrontEnd.csproj.AssemblyReference.cache
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\obj\Debug\Projeto_FrontEnd.Form1.resources
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\obj\Debug\Projeto_FrontEnd.Properties.Resources.resources
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\obj\Debug\Projeto-FrontEnd.csproj.GenerateResource.cache
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\obj\Debug\Projeto-FrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\obj\Debug\Projeto-FrontEnd.exe
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\obj\Debug\Projeto-FrontEnd.pdb
+C:\Users\christian.santos\source\repos\Projeto-FrontEnd\Projeto-FrontEnd\obj\Debug\Projeto_FrontEnd.Form2.resources
