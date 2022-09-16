@@ -49,6 +49,12 @@ namespace ProjetoTeclas
             qtdeKeyDown++;
             MostrarResultado();
             //MessageBox.Show("Evento KeyDown");
+            lblKeyCode.Text = e.Control.ToString();
+            lblControl.Text = e.Control.ToString();
+            lblAlt.Text = e.Alt.ToString();
+            lblShift.Text = e.Shift.ToString();
+            if (e.Control && e.Alt && e.KeyCode.ToString() == "X")
+                MessageBox.Show("pressionou Control + Alt + X");
         }
 
         private void txtNome_KeyUp(object sender, KeyEventArgs e)
@@ -57,9 +63,12 @@ namespace ProjetoTeclas
             MostrarResultado();
             //MessageBox.Show("Evento KeyUp");
         }
+        private void MostrarResultado()
+        {
         lblResultado.Text = "KeyPress: " + qtdeKeyPress.ToString() + 
-            "KeyDown: " + qtdeKeyDownPress.ToString() +
+            "KeyDown: " + qtdeKeyDown.ToString() +
             "KeyUp: " + qtdeKeyUp.ToString();
+        }
 
         private void lblResultado_Click(object sender, EventArgs e)
         {
