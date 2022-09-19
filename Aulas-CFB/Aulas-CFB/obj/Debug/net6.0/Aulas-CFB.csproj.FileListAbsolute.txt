@@ -1,0 +1,15 @@
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\bin\Debug\net6.0\Aulas-CFB.exe
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\bin\Debug\net6.0\Aulas-CFB.deps.json
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\bin\Debug\net6.0\Aulas-CFB.runtimeconfig.json
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\bin\Debug\net6.0\Aulas-CFB.dll
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\bin\Debug\net6.0\Aulas-CFB.pdb
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\Aulas-CFB.csproj.AssemblyReference.cache
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\Aulas-CFB.GeneratedMSBuildEditorConfig.editorconfig
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\Aulas-CFB.AssemblyInfoInputs.cache
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\Aulas-CFB.AssemblyInfo.cs
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\Aulas-CFB.csproj.CoreCompileInputs.cache
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\Aulas-CFB.dll
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\refint\Aulas-CFB.dll
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\Aulas-CFB.pdb
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\Aulas-CFB.genruntimeconfig.cache
+\\Server\c#-vespertino\christian.santos\Documents\Forms\Aulas-CFB\Aulas-CFB\obj\Debug\net6.0\ref\Aulas-CFB.dll
