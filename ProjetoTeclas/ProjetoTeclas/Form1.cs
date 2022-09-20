@@ -92,5 +92,10 @@ namespace ProjetoTeclas
             lblKeyChar.Text = "";
             lblKeyCode.Text = "";
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Projeto_FrontEnd
 {
-    partial class Form1
+    partial class CriCri
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,7 +29,7 @@ namespace Projeto_FrontEnd
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CriCri));
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtCod = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
@@ -43,17 +43,19 @@ namespace Projeto_FrontEnd
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(632, 180);
+            this.txtNome.Location = new System.Drawing.Point(474, 146);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(247, 40);
+            this.txtNome.Size = new System.Drawing.Size(186, 33);
             this.txtNome.TabIndex = 17;
             // 
             // txtCod
             // 
             this.txtCod.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCod.Location = new System.Drawing.Point(196, 180);
+            this.txtCod.Location = new System.Drawing.Point(147, 146);
+            this.txtCod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCod.Name = "txtCod";
-            this.txtCod.Size = new System.Drawing.Size(177, 40);
+            this.txtCod.Size = new System.Drawing.Size(134, 33);
             this.txtCod.TabIndex = 16;
             // 
             // lblNome
@@ -62,9 +64,10 @@ namespace Projeto_FrontEnd
             this.lblNome.BackColor = System.Drawing.Color.Transparent;
             this.lblNome.Font = new System.Drawing.Font("MV Boli", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNome.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblNome.Location = new System.Drawing.Point(626, 145);
+            this.lblNome.Location = new System.Drawing.Point(470, 118);
+            this.lblNome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(253, 32);
+            this.lblNome.Size = new System.Drawing.Size(210, 26);
             this.lblNome.TabIndex = 15;
             this.lblNome.Text = "Digite o seu nome:";
             // 
@@ -74,9 +77,10 @@ namespace Projeto_FrontEnd
             this.lblCod.BackColor = System.Drawing.Color.Transparent;
             this.lblCod.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCod.ForeColor = System.Drawing.Color.Violet;
-            this.lblCod.Location = new System.Drawing.Point(191, 148);
+            this.lblCod.Location = new System.Drawing.Point(143, 120);
+            this.lblCod.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCod.Name = "lblCod";
-            this.lblCod.Size = new System.Drawing.Size(195, 29);
+            this.lblCod.Size = new System.Drawing.Size(151, 25);
             this.lblCod.TabIndex = 14;
             this.lblCod.Text = "Digite o código: ";
             // 
@@ -86,9 +90,10 @@ namespace Projeto_FrontEnd
             this.lblLoja.BackColor = System.Drawing.Color.Transparent;
             this.lblLoja.Font = new System.Drawing.Font("MV Boli", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLoja.ForeColor = System.Drawing.Color.Violet;
-            this.lblLoja.Location = new System.Drawing.Point(137, 84);
+            this.lblLoja.Location = new System.Drawing.Point(103, 68);
+            this.lblLoja.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLoja.Name = "lblLoja";
-            this.lblLoja.Size = new System.Drawing.Size(290, 45);
+            this.lblLoja.Size = new System.Drawing.Size(232, 34);
             this.lblLoja.TabIndex = 10;
             this.lblLoja.Text = "CriCri Gabinetes";
             // 
@@ -98,9 +103,10 @@ namespace Projeto_FrontEnd
             this.lblBemVindo.BackColor = System.Drawing.Color.Transparent;
             this.lblBemVindo.Font = new System.Drawing.Font("MV Boli", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBemVindo.ForeColor = System.Drawing.Color.Violet;
-            this.lblBemVindo.Location = new System.Drawing.Point(134, 19);
+            this.lblBemVindo.Location = new System.Drawing.Point(100, 15);
+            this.lblBemVindo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBemVindo.Name = "lblBemVindo";
-            this.lblBemVindo.Size = new System.Drawing.Size(304, 65);
+            this.lblBemVindo.Size = new System.Drawing.Size(244, 52);
             this.lblBemVindo.TabIndex = 9;
             this.lblBemVindo.Text = "Bem-Vindo!";
             // 
@@ -109,9 +115,11 @@ namespace Projeto_FrontEnd
             this.groFrase.BackColor = System.Drawing.SystemColors.Control;
             this.groFrase.Font = new System.Drawing.Font("MV Boli", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groFrase.ForeColor = System.Drawing.Color.Fuchsia;
-            this.groFrase.Location = new System.Drawing.Point(112, 369);
+            this.groFrase.Location = new System.Drawing.Point(84, 300);
+            this.groFrase.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groFrase.Name = "groFrase";
-            this.groFrase.Size = new System.Drawing.Size(785, 130);
+            this.groFrase.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groFrase.Size = new System.Drawing.Size(589, 106);
             this.groFrase.TabIndex = 19;
             this.groFrase.TabStop = false;
             this.groFrase.Text = "Com um computador bonito, seu sorriso fica lindo!";
@@ -127,21 +135,22 @@ namespace Projeto_FrontEnd
             this.btnVer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnVer.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVer.ForeColor = System.Drawing.Color.Purple;
-            this.btnVer.Location = new System.Drawing.Point(370, 244);
+            this.btnVer.Location = new System.Drawing.Point(278, 198);
+            this.btnVer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVer.Name = "btnVer";
-            this.btnVer.Size = new System.Drawing.Size(267, 91);
+            this.btnVer.Size = new System.Drawing.Size(200, 74);
             this.btnVer.TabIndex = 20;
             this.btnVer.Text = "Ver nosso estoque";
             this.btnVer.UseVisualStyleBackColor = false;
             this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
             // 
-            // Form1
+            // CriCri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1004, 587);
+            this.ClientSize = new System.Drawing.Size(753, 477);
             this.Controls.Add(this.btnVer);
             this.Controls.Add(this.groFrase);
             this.Controls.Add(this.txtNome);
@@ -150,7 +159,8 @@ namespace Projeto_FrontEnd
             this.Controls.Add(this.lblCod);
             this.Controls.Add(this.lblLoja);
             this.Controls.Add(this.lblBemVindo);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "CriCri";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

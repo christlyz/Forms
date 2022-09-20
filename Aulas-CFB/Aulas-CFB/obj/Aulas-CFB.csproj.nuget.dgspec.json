@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Server\\c#-vespertino\\christian.santos\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj": {}
+    "C:\\Users\\Pichau\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj": {}
   },
   "projects": {
-    "\\\\Server\\c#-vespertino\\christian.santos\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj": {
+    "C:\\Users\\Pichau\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Server\\c#-vespertino\\christian.santos\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj",
         "projectName": "Aulas-CFB",
-        "projectPath": "\\\\Server\\c#-vespertino\\christian.santos\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj",
-        "packagesPath": "C:\\Users\\christian.santos\\.nuget\\packages\\",
-        "outputPath": "\\\\Server\\c#-vespertino\\christian.santos\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\Microsoft Visual Studio\\NuGetPackages"
         ],
         "configFilePaths": [
-          "\\\\Server\\c#-vespertino\\christian.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

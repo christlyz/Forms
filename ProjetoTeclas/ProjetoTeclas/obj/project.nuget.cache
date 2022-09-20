@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1aN8ni7if/31A34NfR+7p8q14q09LjrBd00CHkcrusKNAnT/CG86DuhmAA28HCGofPAEzq3KsiHbG7R/qEJJlA==",
+  "dgSpecHash": "PDk3b5QsqUrXl/wrfpI4nDqBOjsSb7poY1VbO3YqwRGXWqpWktAb1g1rcPZYKH/fM0/K+BjZHxu1gcH1++yYKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\christian.santos\\Forms\\ProjetoTeclas\\ProjetoTeclas\\ProjetoTeclas.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Pichau\\Documents\\Forms\\ProjetoTeclas\\ProjetoTeclas\\ProjetoTeclas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
