@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Pichau\\.nuget\\packages\\": {},
-    "E:\\Microsoft Visual Studio\\NuGetPackages": {}
+    "C:\\Users\\christian.santos\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj",
+      "projectUniqueName": "C:\\Users\\christian.santos\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj",
       "projectName": "Aulas-CFB",
-      "projectPath": "C:\\Users\\Pichau\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\Documents\\Forms\\Aulas-CFB\\Aulas-CFB\\obj\\",
+      "projectPath": "C:\\Users\\christian.santos\\Forms\\Aulas-CFB\\Aulas-CFB\\Aulas-CFB.csproj",
+      "packagesPath": "C:\\Users\\christian.santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\christian.santos\\Forms\\Aulas-CFB\\Aulas-CFB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Microsoft Visual Studio\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "\\\\Server\\c#-vespertino\\christian.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

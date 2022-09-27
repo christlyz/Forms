@@ -188,6 +188,54 @@ class Aulas
                     Console.WriteLine(n);
                 }
                 break;
+
+            case 24:
+                int v1, v2, r;
+                v1 = int.Parse(Console.ReadLine());
+                v2 = int.Parse(Console.ReadLine());
+                Console.WriteLine("A Soma de {0} e {1} é: {2}", v1, v2, Soma(v1, v2));
+                break;
+
+            case 25:
+                int num25 = Convert.ToInt32(Console.ReadLine());
+                Dobrar(ref num25);
+                Console.WriteLine(num25);
+                break;
+
+            case 26:
+                int divid, divis, quoc, rest;
+                divid = 10;
+                divis = 5;
+                quoc = Divide(divid, divis, out rest);
+
+                Console.WriteLine("{0}/{1}: quociente = {2} e resto = {3}", divid, divis, quoc, rest);
+                break;
+
+            case 27:
+
+                break;
         }
     }
+    // Métodos do case 26
+    static int Divide(int dividendo, int divisor, out int resto)
+    {
+        int quociente;
+        quociente = dividendo / divisor;
+        resto = dividendo % divisor;
+        return quociente;
+    }
+    // Métodos do case 25
+    static int Dobrar(ref int valor)
+    {
+        valor *= 2;
+        return valor;
+    }
+
+    // Métodos do case 24
+    static int Soma(int n1, int n2)
+    {
+        int res = n1 + n2;
+        return res;
+    }
+
 }
