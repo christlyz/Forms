@@ -47,9 +47,9 @@ namespace Conectando
                 con.Close();
 
             }
-            catch (Exception ex)
+            catch (Exception erro)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("Não conectou" + erro);
             }
         }
     }

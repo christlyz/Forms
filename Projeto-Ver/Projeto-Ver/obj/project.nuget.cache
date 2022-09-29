@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hvb/7k4T9kmrzZ4rngcpIiXtqhWJ1+Ddfz0zqwuN8Dj7VmQK3uJUbvHS+pUwQ6ypT2YqPiHuKzdIylxAo1SqTw==",
+  "dgSpecHash": "rpwJbuYrYFEttNf7qmCSqNvYzYThfxj1JAprl4MGynKumWEp6GZz7Z7gel1KahqUvI+oGu6e1YX7xrQGR1lhWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\christian.santos\\Forms\\Conectando-MySQL\\Conectando\\Conectando\\Conectando.csproj",
+  "projectFilePath": "C:\\Users\\christian.santos\\Forms\\Projeto-Ver\\Projeto-Ver\\Projeto-Ver.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\christian.santos\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\christian.santos\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

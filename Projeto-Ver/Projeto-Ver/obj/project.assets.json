@@ -852,11 +852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\christian.santos\\Forms\\Conectando-MySQL\\Conectando\\Conectando\\Conectando.csproj",
-      "projectName": "Conectando",
-      "projectPath": "C:\\Users\\christian.santos\\Forms\\Conectando-MySQL\\Conectando\\Conectando\\Conectando.csproj",
+      "projectUniqueName": "C:\\Users\\christian.santos\\Forms\\Projeto-Ver\\Projeto-Ver\\Projeto-Ver.csproj",
+      "projectName": "Projeto-Ver",
+      "projectPath": "C:\\Users\\christian.santos\\Forms\\Projeto-Ver\\Projeto-Ver\\Projeto-Ver.csproj",
       "packagesPath": "C:\\Users\\christian.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\christian.santos\\Forms\\Conectando-MySQL\\Conectando\\Conectando\\obj\\",
+      "outputPath": "C:\\Users\\christian.santos\\Forms\\Projeto-Ver\\Projeto-Ver\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
