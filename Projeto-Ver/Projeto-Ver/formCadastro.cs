@@ -17,5 +17,9 @@ namespace Projeto_Ver
             InitializeComponent();
         }
 
+        private void formCadastro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -38,7 +38,24 @@ namespace Projeto_Ver
             imagem_byte = br.ReadBytes((int)fStream.Length);
             String sintax = "Insert Into Imagens(nome, imagem) values (@nome, @imagem)";
             string conexao = "Server=localhost; Database = Projeto; User id = root; pwd = root";
-            MySqlConnection con
+            MySqlConnection connection = new MySqlConnection(conexao);
+            MySqlCommand comando_inserir = new MySqlCommand(sintax, connection);
+            MySqlDataReader meu_reader;
+            try
+            {
+                connection.Open();
+                comando_inserir.Parameters.Add(new MySqlParameter("@imagem", imagem_byte));
+                meu_reader = comando_inserir.ExecuteReader();
+                MessageBox.Show("Imagem Salva!!");
+            }
+            catch (Exception E)
+            {
+                MessageBox.Show(E.Message.ToString());
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
     }
 }

@@ -93,6 +93,7 @@ namespace Projeto_Ver
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "formCadastro";
             this.Text = "Cadastro";
+            this.Load += new System.EventHandler(this.formCadastro_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
