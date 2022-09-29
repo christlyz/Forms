@@ -37,7 +37,7 @@ namespace Projeto_Ver
             BinaryReader br = new BinaryReader(fStream);
             imagem_byte = br.ReadBytes((int)fStream.Length);
             String sintax = "Insert Into Imagens(nome, imagem) values (@nome, @imagem)";
-            string conexao = "Server=localhost; Database = Projeto; User id = root; pwd = root";
+            string conexao = "Server=localhost; Database = Projeto_Imagens; User id = root; pwd = root";
             MySqlConnection connection = new MySqlConnection(conexao);
             MySqlCommand comando_inserir = new MySqlCommand(sintax, connection);
             MySqlDataReader meu_reader;
@@ -56,6 +56,11 @@ namespace Projeto_Ver
             {
                 connection.Close();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

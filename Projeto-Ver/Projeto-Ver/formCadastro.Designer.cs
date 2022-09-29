@@ -80,6 +80,7 @@ namespace Projeto_Ver
             this.btnTrocar.TabIndex = 3;
             this.btnTrocar.Text = "TROCAR";
             this.btnTrocar.UseVisualStyleBackColor = true;
+            this.btnTrocar.Click += new System.EventHandler(this.btnTrocar_Click);
             // 
             // formCadastro
             // 
