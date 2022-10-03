@@ -1,0 +1,17 @@
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\bin\Debug\netcoreapp3.1\Semáforo.exe
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\bin\Debug\netcoreapp3.1\Semáforo.deps.json
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\bin\Debug\netcoreapp3.1\Semáforo.runtimeconfig.json
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\bin\Debug\netcoreapp3.1\Semáforo.runtimeconfig.dev.json
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\bin\Debug\netcoreapp3.1\Semáforo.dll
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\bin\Debug\netcoreapp3.1\Semáforo.pdb
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.csproj.AssemblyReference.cache
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.Form1.resources
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.Properties.Resources.resources
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.csproj.GenerateResource.cache
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.AssemblyInfoInputs.cache
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.AssemblyInfo.cs
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.csproj.CoreCompileInputs.cache
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.dll
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.pdb
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.genruntimeconfig.cache
