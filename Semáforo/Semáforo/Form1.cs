@@ -19,7 +19,6 @@ namespace Semáforo
 
         private void btnComecar_Click(object sender, EventArgs e)
         {
-            //timer1.Enabled = true;
             movimento.Enabled = true;
 
             picVermelho.Visible = false;
@@ -128,6 +127,12 @@ namespace Semáforo
 
             verdeBotao.Enabled = true;
             vermelhoCartao.Enabled = false;
+        }
+
+        private void btnForm2_Click(object sender, EventArgs e)
+        {
+            Form2 formulario2 = new Form2();
+            formulario2.ShowDialog();
         }
     }
 }

@@ -47,6 +47,8 @@ namespace Semáforo
             this.amareloCartao = new System.Windows.Forms.Timer(this.components);
             this.vermelhoCartao = new System.Windows.Forms.Timer(this.components);
             this.verdeCartao = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnForm2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picVermelho)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAmarelo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVerde)).BeginInit();
@@ -57,9 +59,9 @@ namespace Semáforo
             // picVermelho
             // 
             this.picVermelho.Image = ((System.Drawing.Image)(resources.GetObject("picVermelho.Image")));
-            this.picVermelho.Location = new System.Drawing.Point(750, 12);
+            this.picVermelho.Location = new System.Drawing.Point(560, 75);
             this.picVermelho.Name = "picVermelho";
-            this.picVermelho.Size = new System.Drawing.Size(140, 188);
+            this.picVermelho.Size = new System.Drawing.Size(101, 54);
             this.picVermelho.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picVermelho.TabIndex = 0;
             this.picVermelho.TabStop = false;
@@ -68,9 +70,9 @@ namespace Semáforo
             // picAmarelo
             // 
             this.picAmarelo.Image = ((System.Drawing.Image)(resources.GetObject("picAmarelo.Image")));
-            this.picAmarelo.Location = new System.Drawing.Point(750, 12);
+            this.picAmarelo.Location = new System.Drawing.Point(560, 75);
             this.picAmarelo.Name = "picAmarelo";
-            this.picAmarelo.Size = new System.Drawing.Size(140, 188);
+            this.picAmarelo.Size = new System.Drawing.Size(101, 54);
             this.picAmarelo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAmarelo.TabIndex = 1;
             this.picAmarelo.TabStop = false;
@@ -79,9 +81,9 @@ namespace Semáforo
             // picVerde
             // 
             this.picVerde.Image = ((System.Drawing.Image)(resources.GetObject("picVerde.Image")));
-            this.picVerde.Location = new System.Drawing.Point(750, 12);
+            this.picVerde.Location = new System.Drawing.Point(560, 75);
             this.picVerde.Name = "picVerde";
-            this.picVerde.Size = new System.Drawing.Size(140, 188);
+            this.picVerde.Size = new System.Drawing.Size(101, 54);
             this.picVerde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picVerde.TabIndex = 2;
             this.picVerde.TabStop = false;
@@ -110,7 +112,7 @@ namespace Semáforo
             // 
             // btnParar
             // 
-            this.btnParar.Location = new System.Drawing.Point(1309, 91);
+            this.btnParar.Location = new System.Drawing.Point(1309, 63);
             this.btnParar.Name = "btnParar";
             this.btnParar.Size = new System.Drawing.Size(112, 45);
             this.btnParar.TabIndex = 5;
@@ -132,7 +134,7 @@ namespace Semáforo
             // 
             this.picPedestre.BackColor = System.Drawing.Color.Transparent;
             this.picPedestre.Image = ((System.Drawing.Image)(resources.GetObject("picPedestre.Image")));
-            this.picPedestre.Location = new System.Drawing.Point(354, 230);
+            this.picPedestre.Location = new System.Drawing.Point(316, 347);
             this.picPedestre.Name = "picPedestre";
             this.picPedestre.Size = new System.Drawing.Size(71, 101);
             this.picPedestre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -183,24 +185,47 @@ namespace Semáforo
             // 
             this.verdeCartao.Interval = 15000;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Cooper Black", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(360, 311);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(581, 137);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "||||||||";
+            // 
+            // btnForm2
+            // 
+            this.btnForm2.Location = new System.Drawing.Point(1309, 114);
+            this.btnForm2.Name = "btnForm2";
+            this.btnForm2.Size = new System.Drawing.Size(112, 45);
+            this.btnForm2.TabIndex = 10;
+            this.btnForm2.Text = "Abrir Form2";
+            this.btnForm2.UseVisualStyleBackColor = true;
+            this.btnForm2.Click += new System.EventHandler(this.btnForm2_Click);
+            // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1433, 894);
+            this.Controls.Add(this.btnForm2);
+            this.Controls.Add(this.picVerde);
+            this.Controls.Add(this.picAmarelo);
+            this.Controls.Add(this.picVermelho);
             this.Controls.Add(this.btnAbreCartao);
             this.Controls.Add(this.btnAbrir);
             this.Controls.Add(this.picPedestre);
             this.Controls.Add(this.btnParar);
             this.Controls.Add(this.btnComecar);
             this.Controls.Add(this.picCarro);
-            this.Controls.Add(this.picVerde);
-            this.Controls.Add(this.picAmarelo);
-            this.Controls.Add(this.picVermelho);
+            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picVermelho)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAmarelo)).EndInit();
@@ -229,6 +254,8 @@ namespace Semáforo
         private System.Windows.Forms.Timer amareloCartao;
         private System.Windows.Forms.Timer vermelhoCartao;
         private System.Windows.Forms.Timer verdeCartao;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnForm2;
     }
 }
 

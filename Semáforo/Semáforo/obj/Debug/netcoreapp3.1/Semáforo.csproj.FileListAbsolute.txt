@@ -15,3 +15,4 @@ C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Sem�
 C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.dll
 C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.pdb
 C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.genruntimeconfig.cache
+C:\Users\christian.santos\Forms\Semáforo\Semáforo\obj\Debug\netcoreapp3.1\Semáforo.Form2.resources
