@@ -48,9 +48,6 @@ namespace Semáforo
             {
                 picCadeirante.Top += 1;
             }
-
-
-
         }
 
         private void f(object sender, EventArgs e)
@@ -66,7 +63,7 @@ namespace Semáforo
                 picAmarelo1.Visible = true;
                 picVerde1.Visible = false;
             }
-            if(picVerde2.Visible == true)
+            else if(picVerde2.Visible == true)
             {
                 picVermelho2.Visible = false;
                 picAmarelo2.Visible = true;
@@ -83,7 +80,7 @@ namespace Semáforo
                 picAmarelo1.Visible = false;
                 picVerde1.Visible = true;
             }
-            if(picVermelho2.Visible == true)
+            else if(picVermelho2.Visible == true)
             {
                 picVermelho2.Visible = false;
                 picAmarelo2.Visible = false;

@@ -145,9 +145,9 @@ namespace Semáforo
             // 
             this.btnAbrir.Location = new System.Drawing.Point(331, 154);
             this.btnAbrir.Name = "btnAbrir";
-            this.btnAbrir.Size = new System.Drawing.Size(112, 45);
+            this.btnAbrir.Size = new System.Drawing.Size(112, 61);
             this.btnAbrir.TabIndex = 7;
-            this.btnAbrir.Text = "Abrir";
+            this.btnAbrir.Text = "Abrir Botão";
             this.btnAbrir.UseVisualStyleBackColor = true;
             this.btnAbrir.Click += new System.EventHandler(this.btnAbrir_Click);
             // 
