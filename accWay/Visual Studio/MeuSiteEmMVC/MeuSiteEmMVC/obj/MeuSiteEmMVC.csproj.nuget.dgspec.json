@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\christian.santos\\AccessibilityWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\MeuSiteEmMVC.csproj": {}
+    "C:\\Users\\christian.santos\\Forms\\accWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\MeuSiteEmMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\christian.santos\\AccessibilityWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\MeuSiteEmMVC.csproj": {
+    "C:\\Users\\christian.santos\\Forms\\accWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\MeuSiteEmMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\christian.santos\\AccessibilityWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\MeuSiteEmMVC.csproj",
+        "projectUniqueName": "C:\\Users\\christian.santos\\Forms\\accWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\MeuSiteEmMVC.csproj",
         "projectName": "MeuSiteEmMVC",
-        "projectPath": "C:\\Users\\christian.santos\\AccessibilityWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\MeuSiteEmMVC.csproj",
+        "projectPath": "C:\\Users\\christian.santos\\Forms\\accWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\MeuSiteEmMVC.csproj",
         "packagesPath": "C:\\Users\\christian.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\christian.santos\\AccessibilityWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\obj\\",
+        "outputPath": "C:\\Users\\christian.santos\\Forms\\accWay\\Visual Studio\\MeuSiteEmMVC\\MeuSiteEmMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

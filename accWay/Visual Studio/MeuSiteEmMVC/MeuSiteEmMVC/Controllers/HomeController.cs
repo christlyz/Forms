@@ -17,6 +17,15 @@ namespace MeuSiteEmMVC.Controllers
             return View();
         }
 
+        public IActionResult Simulacao()
+        {
+            return View();
+        }
+        public IActionResult ViaUnica()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
