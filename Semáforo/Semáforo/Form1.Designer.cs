@@ -59,9 +59,10 @@ namespace Semáforo
             // picVermelho
             // 
             this.picVermelho.Image = ((System.Drawing.Image)(resources.GetObject("picVermelho.Image")));
-            this.picVermelho.Location = new System.Drawing.Point(560, 75);
+            this.picVermelho.Location = new System.Drawing.Point(524, 122);
+            this.picVermelho.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picVermelho.Name = "picVermelho";
-            this.picVermelho.Size = new System.Drawing.Size(101, 54);
+            this.picVermelho.Size = new System.Drawing.Size(88, 40);
             this.picVermelho.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picVermelho.TabIndex = 0;
             this.picVermelho.TabStop = false;
@@ -70,9 +71,10 @@ namespace Semáforo
             // picAmarelo
             // 
             this.picAmarelo.Image = ((System.Drawing.Image)(resources.GetObject("picAmarelo.Image")));
-            this.picAmarelo.Location = new System.Drawing.Point(560, 75);
+            this.picAmarelo.Location = new System.Drawing.Point(524, 122);
+            this.picAmarelo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAmarelo.Name = "picAmarelo";
-            this.picAmarelo.Size = new System.Drawing.Size(101, 54);
+            this.picAmarelo.Size = new System.Drawing.Size(88, 40);
             this.picAmarelo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAmarelo.TabIndex = 1;
             this.picAmarelo.TabStop = false;
@@ -81,9 +83,10 @@ namespace Semáforo
             // picVerde
             // 
             this.picVerde.Image = ((System.Drawing.Image)(resources.GetObject("picVerde.Image")));
-            this.picVerde.Location = new System.Drawing.Point(560, 75);
+            this.picVerde.Location = new System.Drawing.Point(524, 122);
+            this.picVerde.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picVerde.Name = "picVerde";
-            this.picVerde.Size = new System.Drawing.Size(101, 54);
+            this.picVerde.Size = new System.Drawing.Size(88, 40);
             this.picVerde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picVerde.TabIndex = 2;
             this.picVerde.TabStop = false;
@@ -93,18 +96,20 @@ namespace Semáforo
             // 
             this.picCarro.BackColor = System.Drawing.Color.Transparent;
             this.picCarro.Image = ((System.Drawing.Image)(resources.GetObject("picCarro.Image")));
-            this.picCarro.Location = new System.Drawing.Point(560, 891);
+            this.picCarro.Location = new System.Drawing.Point(490, 668);
+            this.picCarro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picCarro.Name = "picCarro";
-            this.picCarro.Size = new System.Drawing.Size(140, 177);
+            this.picCarro.Size = new System.Drawing.Size(122, 133);
             this.picCarro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCarro.TabIndex = 3;
             this.picCarro.TabStop = false;
             // 
             // btnComecar
             // 
-            this.btnComecar.Location = new System.Drawing.Point(1309, 12);
+            this.btnComecar.Location = new System.Drawing.Point(1145, 9);
+            this.btnComecar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnComecar.Name = "btnComecar";
-            this.btnComecar.Size = new System.Drawing.Size(112, 45);
+            this.btnComecar.Size = new System.Drawing.Size(98, 34);
             this.btnComecar.TabIndex = 4;
             this.btnComecar.Text = "Começar";
             this.btnComecar.UseVisualStyleBackColor = true;
@@ -112,9 +117,10 @@ namespace Semáforo
             // 
             // btnParar
             // 
-            this.btnParar.Location = new System.Drawing.Point(1309, 63);
+            this.btnParar.Location = new System.Drawing.Point(1145, 47);
+            this.btnParar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnParar.Name = "btnParar";
-            this.btnParar.Size = new System.Drawing.Size(112, 45);
+            this.btnParar.Size = new System.Drawing.Size(98, 34);
             this.btnParar.TabIndex = 5;
             this.btnParar.Text = "Parar";
             this.btnParar.UseVisualStyleBackColor = true;
@@ -134,18 +140,20 @@ namespace Semáforo
             // 
             this.picPedestre.BackColor = System.Drawing.Color.Transparent;
             this.picPedestre.Image = ((System.Drawing.Image)(resources.GetObject("picPedestre.Image")));
-            this.picPedestre.Location = new System.Drawing.Point(316, 347);
+            this.picPedestre.Location = new System.Drawing.Point(354, 260);
+            this.picPedestre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picPedestre.Name = "picPedestre";
-            this.picPedestre.Size = new System.Drawing.Size(71, 101);
+            this.picPedestre.Size = new System.Drawing.Size(62, 76);
             this.picPedestre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPedestre.TabIndex = 6;
             this.picPedestre.TabStop = false;
             // 
             // btnAbrir
             // 
-            this.btnAbrir.Location = new System.Drawing.Point(331, 154);
+            this.btnAbrir.Location = new System.Drawing.Point(290, 116);
+            this.btnAbrir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAbrir.Name = "btnAbrir";
-            this.btnAbrir.Size = new System.Drawing.Size(112, 61);
+            this.btnAbrir.Size = new System.Drawing.Size(98, 46);
             this.btnAbrir.TabIndex = 7;
             this.btnAbrir.Text = "Abrir Botão";
             this.btnAbrir.UseVisualStyleBackColor = true;
@@ -163,9 +171,10 @@ namespace Semáforo
             // 
             // btnAbreCartao
             // 
-            this.btnAbreCartao.Location = new System.Drawing.Point(331, 75);
+            this.btnAbreCartao.Location = new System.Drawing.Point(290, 56);
+            this.btnAbreCartao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAbreCartao.Name = "btnAbreCartao";
-            this.btnAbreCartao.Size = new System.Drawing.Size(112, 61);
+            this.btnAbreCartao.Size = new System.Drawing.Size(98, 46);
             this.btnAbreCartao.TabIndex = 8;
             this.btnAbreCartao.Text = "Abrir com Cartão";
             this.btnAbreCartao.UseVisualStyleBackColor = true;
@@ -187,19 +196,20 @@ namespace Semáforo
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(360, 311);
+            this.label1.Location = new System.Drawing.Point(396, 233);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(581, 137);
+            this.label1.Size = new System.Drawing.Size(372, 103);
             this.label1.TabIndex = 9;
-            this.label1.Text = "||||||||";
+            this.label1.Text = "||||||||||||";
             // 
             // btnForm2
             // 
-            this.btnForm2.Location = new System.Drawing.Point(1309, 114);
+            this.btnForm2.Location = new System.Drawing.Point(1145, 86);
+            this.btnForm2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnForm2.Name = "btnForm2";
-            this.btnForm2.Size = new System.Drawing.Size(112, 45);
+            this.btnForm2.Size = new System.Drawing.Size(98, 34);
             this.btnForm2.TabIndex = 10;
             this.btnForm2.Text = "Abrir Form2";
             this.btnForm2.UseVisualStyleBackColor = true;
@@ -208,9 +218,9 @@ namespace Semáforo
             // Form1
             // 
             this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1433, 894);
+            this.ClientSize = new System.Drawing.Size(1254, 670);
             this.Controls.Add(this.btnForm2);
             this.Controls.Add(this.picVerde);
             this.Controls.Add(this.picAmarelo);
@@ -223,10 +233,10 @@ namespace Semáforo
             this.Controls.Add(this.picCarro);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.Color.White;
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picVermelho)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAmarelo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVerde)).EndInit();

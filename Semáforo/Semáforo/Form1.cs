@@ -19,6 +19,7 @@ namespace Semáforo
 
         private void btnComecar_Click(object sender, EventArgs e)
         {
+            // botão começar simulação
             movimento.Enabled = true;
 
             picVermelho.Visible = false;
@@ -28,6 +29,7 @@ namespace Semáforo
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            // inicia amarelo botão
             if(picVerde.Visible == true)
             {
                 picVermelho.Visible = false;
@@ -40,38 +42,60 @@ namespace Semáforo
 
         private void btnParar_Click(object sender, EventArgs e)
         {
+            // botão parar simulação
             amareloBotao.Enabled = false;
             movimento.Enabled = false;
         }
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            if(picAmarelo.Visible == true)
-            {
-                picCarro.Top -= 2;
-            }
-            if(picVerde.Visible == true)
+            // movimento dos objetos
+            /*if (picVerde.Visible == true)
             {
                 picCarro.Top -= 3;
             }
-            
-            if(picVermelho.Visible == true)
+
+            else if (picVermelho.Visible == true)
             {
                 picPedestre.Left += 1;
             }
-            if(picCarro.Location.Y < 0)
+            else if(picAmarelo.Visible == true && picCarro.Location.Y >= 233)
             {
-                picCarro.Location = new Point(560, 891);
+                picCarro.Top -= 3;
+            }
+            else
+            {
+                picCarro.Top -= 2;
+            }
+            */
+            if (picCarro.Location.Y < -200)
+            {
+                picCarro.Location = new Point(490, 668);
+            }
+            if (picAmarelo.Visible)
+                picCarro.Top -= 2;
+
+            if (picVerde.Visible)
+                picCarro.Top -= 3;
+
+            if (picVermelho.Visible)
+            {
+                picPedestre.Left += 3;
+
+                picCarro.Top -= (picCarro.Location.Y != 373) ? 3 : 0;
+
             }
         }
 
         private void btnAbrir_Click(object sender, EventArgs e)
         {
+            // simula botão
             amareloBotao.Enabled = true;
         }
 
         private void timer3_Tick(object sender, EventArgs e)
         {
+            // inicia verde botão
             picVerde.Visible = true;
             if(picVerde.Visible == true)
             {
@@ -83,6 +107,7 @@ namespace Semáforo
 
         private void timer4_Tick(object sender, EventArgs e)
         {
+            // inicia vermelho botão
             if (picAmarelo.Visible == true)
             {
                 picVermelho.Visible = true;
@@ -96,16 +121,13 @@ namespace Semáforo
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // simula cartao
             amareloCartao.Enabled = true;
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            picVerde.Visible = true;
         }
 
         private void amareloCartao_Tick(object sender, EventArgs e)
         {
+            // inicia amarelo cartao
             if (picVerde.Visible == true)
             {
                 picVermelho.Visible = false;
@@ -118,6 +140,7 @@ namespace Semáforo
 
         private void vermelhoCartao_Tick(object sender, EventArgs e)
         {
+            // inicia vermelho cartao
             if (picAmarelo.Visible == true)
             {
                 picVermelho.Visible = true;
@@ -131,6 +154,7 @@ namespace Semáforo
 
         private void btnForm2_Click(object sender, EventArgs e)
         {
+            // abre simulação cruzammento
             Form2 formulario2 = new Form2();
             formulario2.ShowDialog();
         }

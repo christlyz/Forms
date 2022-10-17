@@ -48,6 +48,15 @@ namespace Semáforo
             {
                 picCadeirante.Top += 1;
             }
+
+            if(picCarroPreto.Location.Y < -200)
+            {
+                picCarroPreto.Location = new Point(608, 666);
+            }
+            else if(picCarroBranco.Location.X < -200)
+            {
+                picCarroBranco.Location = new Point(1249, 232);
+            }
         }
 
         private void f(object sender, EventArgs e)
